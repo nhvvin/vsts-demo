@@ -1,1 +1,1 @@
-web: node server/server.js
+web: webpack-dev-server --config webpack.config.js --open
