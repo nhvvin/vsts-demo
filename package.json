@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "dev": "webpack-dev-server --config webpack.config.js --open",
-    "serve": "node server/server.js"
+    "server": "node server/server.js"
   },
   "author": "waderyan",
   "license": "MIT",
