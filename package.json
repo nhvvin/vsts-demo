@@ -8,9 +8,9 @@
   "description": "Simple todo application to demo react and es6 in VS Code",
   "main": "webpack.config.js",
   "scripts": {
-    "postinstall": "node_modules/.bin/webpack --config webpack.config.js",
+    "build": "node_modules/.bin/webpack --config webpack.config.js",
     "dev": "node_modules/.bin/webpack-dev-server --config webpack.config.js --open",
-    "start": "node server/server.js"
+    "server": "node server/server.js"
   },
   "author": "waderyan",
   "license": "MIT",
